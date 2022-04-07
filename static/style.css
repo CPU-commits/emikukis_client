@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Merriweather', serif;
+    font-weight: 400;
+    color: var(--color-dark);
+}
+
+body {
+    background-color: var(--color-background);
+}
+
+.Dark{
+    background-color: var(--color-background-dark) !important;
+}
+
+.DarkCl{
+    color: white !important;
+}
+
+.LikeAnimation {
+    animation: Like 0.5s;
+}
+
+@keyframes Like {
+    from {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+
+    from {
+        transform: scale(0);
+    }
+}
+
+:root {
+    --color-main: #ac235f;
+    --color-light: #ffa7bd;
+    --color-blue-ligth: #4abce3;
+    --color-dark: #383434;
+    --color-background: #ffeeff;
+    --color-background-dark: #2a1736;
+}
