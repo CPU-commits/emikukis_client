@@ -20,7 +20,7 @@
     }
 
     .Banner img {
-        max-height: 500px;
+        max-height: 300px;
     }
 
     .Banner__text{
@@ -230,7 +230,7 @@
 
 <section class="Banner">
     <img class="animate__animated animate__fadeInLeft" 
-        src="https://www.owozu.com/wp-content/uploads/2021/12/Hetto_final2.png" alt="Vtuber">
+        src="https://www.owozu.com/wp-content/uploads/2022/04/InfoParallax-1.png" alt="Vtuber">
     <div class="Banner__text">
         <h1>¡ Vtuber Emikukis ! - Streamer</h1>
         <img src="https://icones.pro/wp-content/uploads/2021/05/symbole-twitch-logo-icone-violet.png" alt="">
